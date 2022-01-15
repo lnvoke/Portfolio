@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{background:#191919}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-sizing: border-box;
+  }
+  li {
+    float: left;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+
+  .typing{color:white;}
