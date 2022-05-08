@@ -24,7 +24,7 @@ body{min-height: 100vh; background:#191919}
 }
 .nav ul{
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
   width: 100%;
 }
@@ -64,7 +64,7 @@ body{min-height: 100vh; background:#191919}
 {
   position: relative;
   display: block;
-  padding: 0 10px;
+  padding: 0px 10px;
   height: 60px;
   line-height: 60px;
   text-align: start;
