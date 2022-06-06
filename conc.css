@@ -3,11 +3,7 @@
 *
 {
   margin: 0;
-<<<<<<< HEAD
-  padding: 0;
-=======
   padding: .8px;
->>>>>>> a0088093680cff7ab30376881cd85d1a61d050ad
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -28,11 +24,7 @@ body{min-height: 100vh; background:#191919}
 }
 .nav ul{
   position: absolute;
-<<<<<<< HEAD
   top: 20px;
-=======
-  top: 15px;
->>>>>>> a0088093680cff7ab30376881cd85d1a61d050ad
   left: 0;
   width: 100%;
 }
