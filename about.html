@@ -20,24 +20,27 @@
       </div>
     </div>
   </header>
-    <div class="typing">
-        <span id="about"></span>
-        <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
-        <script>
-            let instance = new TypeIt("#about", {
-              speed: 60, deleteSpeed: 90,
-            })
-            .type("About Me.")
-            .pause(800)
-            .delete(9, { delay: 1000})
-            .type("WIP")
-            .go()
-            .is('completed');
-          </script>
-    </div>
 
     <div class="About">
       <p>This page is for my About me and Contact information,</p>
+    </div>
+
+    <div class="Contact">
+      <form>
+        <div class="fillin">
+          <input type="text" id="name" required>
+          <label for="name"><i class="fas fa-user"></i> Name</label>
+        </div>
+        <div class="fillin">
+          <input type="email" id="email" required>
+          <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+        </div>
+        <div class="fillin">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message"><i class="fas fa-comments"></i> Message Here</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
 </body>
 </html>
